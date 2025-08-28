@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather_container">
+            <div class="temp">
+                <span>20°C</span>
+            </div>
+            <div class="time_location">
+                <p>India, Tamil Nadu</p>
+                <p>5:30 PM - Thursday 2025-08-28</p>
+            </div>
+            <div class="condition">
+                <span>Mist</span>
+            </div>
+        </div>
+        <nav>
+            <form>
+                <label for="city" style="display:none;">City Name</label>
+                <input type="text" id="city" placeholder="Enter City Name" class="search_area">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </div>
+</body>
+<script src="weather.js"></script>
+</html>
