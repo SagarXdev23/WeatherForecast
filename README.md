@@ -29,8 +29,7 @@ WeatherAPI – real-time weather data
 
 🚀 Getting Started
 1️⃣ Clone the repository
-git clone https://github.com/your-username/weather-app.git
-
+git clone [https://github.com/SagarXdev23/WeatherForecast]
 2️⃣ Navigate to the project folder
 cd weather-app
 
